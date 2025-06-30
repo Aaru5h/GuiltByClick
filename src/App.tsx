@@ -411,6 +411,21 @@ function App() {
         ))}
       </div>
 
+      {/* Built with Bolt.new Badge */}
+      <a
+        href="https://bolt.new/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="fixed bottom-6 right-6 z-50 group transition-all duration-300 hover:scale-105"
+        title="Built with Bolt.new"
+      >
+        <img
+          src="/boltWhite.png"
+          alt="Built with Bolt.new"
+          className="w-16 h-16 drop-shadow-lg group-hover:drop-shadow-xl transition-all duration-300"
+        />
+      </a>
+
       {/* Authentication Modal */}
       <AuthModal 
         isOpen={showAuthModal}
